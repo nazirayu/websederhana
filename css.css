@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.menu {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+/* Menambahkan warna pada tautan menu */
+.menu ul li:nth-child(1) a {
+    background-color: red; /* Warna Merah */
+    color: white;
+}
+
+.menu ul li:nth-child(2) a {
+    background-color: green; /* Warna Hijau */
+    color: white;
+}
+
+.menu ul li:nth-child(3) a {
+    background-color: yellow; /* Warna Kuning */
+    color: black; /* Teks hitam untuk kontras */
+}
+.menu ul li:nth-child(4) a {
+    background-color: blue; /* Warna Biru */
+    color: white;
+}
+
+.menu ul li:nth-child(5) a {
+    background-color: orange; /* Warna Oranye */
+    color: black;
+}
+
+.menu ul li a:hover {
+    opacity: 0.8; /* Efek hover */
+}
